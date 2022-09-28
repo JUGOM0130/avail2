@@ -15,23 +15,50 @@
 
 <body>
     <div class="container">
-        <h1>P_LIST</h1>
-        <div class="card mt-5" style="width: 18rem;">
-            <img src="./img/33612.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-                <h5 class="card-title">ブレーキプレート Ambassadeur用</h5>
-                <p class="card-text">hogehoeg</p>
-                <a href="naiyo.php" class="btn btn-primary">こちら</a>
+        <h1 class="display-4 mt-3">プロジェクトリスト</h1>
+        <div class="row">
+            <div class="col">
+                <div class="card mt-5" style="width: 18rem;">
+                    <img src="./img/33612.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">ブレーキプレート Ambassadeur用</h5>
+                        <p class="card-text">2022/09/09開始のプロジェクト</p>
+                        <a href="naiyo.php" class="btn btn-primary">プロジェクトを開く</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card mt-5" style="width: 18rem;">
+                    <img src="./img/400_hd_sh_sti2_cgld.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">オフセットハンドル STi2.5 シマノ用 85mm </h5>
+                        <p class="card-text">2022/10/10終了のプロジェクト</p>
+                        <a href="#" class="btn btn-primary">プロジェクトを開く</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card mt-5" style="width: 18rem;">
+                    <img src="./img/33691red.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">アルミオフセットフレーム2.0 Ambassadeur用</h5>
+                        <p class="card-text">2022/10/10終了のプロジェクト</p>
+                        <a href="#" class="btn btn-primary">プロジェクトを開く</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card mt-5" style="width: 18rem;">
+                    <img src="./img/33567black.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">シマノ 21カルカッタコンクエスト100/101用 【全2色】</h5>
+                        <p class="card-text">2022/10/10終了のプロジェクト</p>
+                        <a href="#" class="btn btn-primary">プロジェクトを開く</a>
+                    </div>
+                </div>
             </div>
         </div>
-        <div class="card mt-5" style="width: 18rem;">
-            <img src="./img/400_hd_sh_sti2_cgld.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-                <h5 class="card-title">オフセットハンドル STi2.5 シマノ用 85mm </h5>
-                <p class="card-text">hugahuga</p>
-                <a href="#" class="btn btn-primary">こちら</a>
-            </div>
-        </div>
+
     </div>
 </body>
 

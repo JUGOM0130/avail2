@@ -5,28 +5,39 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <style>
-        .mr10{
-            margin: 10px;
-        }
-        .fcon{
-            display: flex;
-            flex-direction: row;
-        }
-        .fitem{
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
-        }
-    </style>
     <title>Index</title>
 </head>
 
 <body>
     <div class="container">
-        <h1>List</h1>
-        <p class="mr10"><a href="progectlist.php">PROJECT</a></p>
-        <p class="mr10"><a href="#">KINTAI</a></p>
-        <p class="mr10"><a href="#">リンク3</a></p>
-        <p class="mr10"><a href="#">リンク4</a></p>
+        <div class="row mt-5">
+            <div class="col-2">
+                <img src="./img/33612.jpg" alt="画像" style="width: 50%;">
+            </div>
+            <div class="col">
+                <h1>ブレーキプレート Ambassadeur用</h1>
+            </div>
+        </div>
+        <div class="row mt-5">
+            <div class="col">
+                <p>進捗状況　75%</p>
+                <div class="progress">
+                    <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%"></div>
+                </div>
+            </div>
+        </div>
+        <div class="row mt-5">
+            <div class="col">
+                <p>この製品は・・・</p>
+                <p>12月13日に生産完了予定</p>
+
+            </div>
+            <div class="col">
+
+            </div>
+        </div>
 
     </div>
 </body>
