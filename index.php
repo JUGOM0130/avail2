@@ -20,7 +20,7 @@
         <ul>
             <li class="mb-2"><a class="mojisize_16" href="pdm_menu.php">PDMシステム</a></li>
             <li class="mb-2"><a class="mojisize_16" href="#">勤怠管理</a></li>
-            <li class="mb-2"><a class="mojisize_16" href="#">ユーザ管理</a></li>
+            <li class="mb-2"><a class="mojisize_16" href="shain_list.php">ユーザ管理</a></li>
             <li class="mb-2"><a class="mojisize_16" href="#">リンク4</a></li>
         </ul>
 
