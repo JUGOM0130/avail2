@@ -12,6 +12,14 @@
 
 <body>
     <div class="container">
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="index.php">Home</a></li>
+                <li class="breadcrumb-item"><a href="pdm_menu.php">PDMメニュー</a></li>
+                <li class="breadcrumb-item"><a href="progectlist.php">プロジェクトリスト</a></li>
+                <li class="breadcrumb-item active" aria-current="page">ブレーキプレート Ambassadeur用</li>
+            </ol>
+        </nav>
         <div class="row mt-5">
             <div class="col-2">
                 <img src="./img/33612.jpg" alt="画像" style="width: 50%;">

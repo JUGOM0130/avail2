@@ -15,6 +15,13 @@
 
 <body>
     <div class="container">
+    <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="index.php">Home</a></li>
+                <li class="breadcrumb-item"><a href="pdm_menu.php">PDMメニュー</a></li>
+                <li class="breadcrumb-item active" aria-current="page">プロジェクトリスト</li>
+            </ol>
+        </nav>
         <h1 class="display-4 mt-3">プロジェクトリスト</h1>
         <div class="row">
             <div class="col">

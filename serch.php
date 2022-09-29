@@ -16,7 +16,15 @@
 
 <body>
     <div class="container">
+    <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="index.php">Home</a></li>
+                <li class="breadcrumb-item"><a href="pdm_menu.php">PDMメニュー</a></li>
+                <li class="breadcrumb-item active" aria-current="page">検索</li>
+            </ol>
+        </nav>
         <h1 class="display-3 mt-3">検索フォーム</h1>
+        <p>このフォームはキーワードにに一致するものを表示します</p>
         <form>
             <div class="mb-3">
                 <label for="exampleInputPassword1" class="form-label">コード</label>
