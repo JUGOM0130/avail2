@@ -32,7 +32,7 @@
             <div class="row">
                 <div class="col">
                     <div class="mb-3">
-                        <label for="cd" class="form-label">製品コード</label>
+                        <label for="cd" class="form-label">製品コード<span class="badge badge-danger">必須</span></label>
                         <input type="text" class="form-control" id="cd" aria-describedby="emailHelp">
                         <div id="emailHelp" class="form-text">製品コードを入力してください</div>
                     </div>
@@ -68,12 +68,12 @@
                 <template v-for="item in list">
                     <div class="row">
                         <div class="col">
-                            <label for="b1" class="form-label">使用部品コード{{item.no}}</label>
-                            <input type="text" class="form-control" id="b1" aria-describedby="emailHelp">
+                            <label v-bind:for="item.name" class="form-label">使用部品コード{{item.no}}</label>
+                            <input type="text" class="form-control" v-bind:id="item.name" aria-describedby="emailHelp">
                         </div>
                         <div class="col">
-                            <label for="b2" class="form-label">使用部品名{{item.no}}</label>
-                            <input type="text" class="form-control" id="b2" aria-describedby="emailHelp">
+                        <label v-bind:for="item.name" class="form-label">使用部品名{{item.no}}</label>
+                            <input type="text" class="form-control" v-bind:id="item.name" aria-describedby="emailHelp">
                         </div>
                     </div>
                 </template>
@@ -95,16 +95,13 @@
             el: '#app',
             data: {
                 list: [
-                    {"no":"1"},
-                    {"no":"2"},
-                    {"no":"3"},
-                    {"no":"4"}
+                    {"no":"1","name":"buhin1"}
                 ]
             },
             methods:{
                 //行追加
                 add:function(){
-                    this.list.push({"no":String(this.list.length+1)});
+                    this.list.push({"no":String(this.list.length+1),"name":("buhin"+String(this.list.length+1))});
                 }
             }
         })
