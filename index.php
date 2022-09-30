@@ -11,7 +11,7 @@
             font-size: 16pt;
         }
     </style>
-    <title>Index</title>
+    <title>メインメニュー</title>
 </head>
 
 <body>
