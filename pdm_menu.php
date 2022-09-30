@@ -29,13 +29,13 @@
         </nav>
         <h1 class="display-3 mt-3"><i class="bi bi-list"></i>PDMメニュー</h1>
         <ul>
-            <li class="mb-2"><a class="mojisize_16" href="progectlist.php"><i class="bi bi-list-check"></i> プロジェクトリスト</a></li>
+            <li class="mb-2"><a class="mojisize_16" href="progectlist.php"><i class="bi bi-list-check"></i> プロジェクトリスト←</a></li>
             <li class="mb-2"><a class="mojisize_16" href="#"><i class="bi bi-cloud-arrow-up"></i> CADデータ管理</a></li>
             <li class="mb-2"><a class="mojisize_16" href="#"><i class="bi bi-cloud-arrow-up-fill"></i> 図面管理</a></li>
             <li class="mb-2"><a class="mojisize_16" href="#"><i class="bi bi-files"></i> ドキュメント管理</a></li>
             <li class="mb-2"><a class="mojisize_16" href="#"><i class="bi bi-gear-wide-connected"></i> 部品表（BOM）管理</a></li>
             <li class="mb-2"><a class="mojisize_16" href="#"><i class="bi bi-hammer"></i> 設計変更管理</a></li>
-            <li class="mb-2"><a class="mojisize_16" href="serch.php"><i class="bi bi-search"></i> 検索</a></li>
+            <li class="mb-2"><a class="mojisize_16" href="serch.php"><i class="bi bi-search"></i> 検索←</a></li>
         </ul>
 
 

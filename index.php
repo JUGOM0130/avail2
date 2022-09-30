@@ -25,10 +25,11 @@
     
         <h1 class="display-3 mt-3"><i class="bi bi-house"></i> メインメニュー</h1>
         <ul>
-            <li class="mb-2"><a class="mojisize_16" href="pdm_menu.php">PDMシステム</a></li>
+            <li class="mb-2"><a class="mojisize_16" href="pdm_menu.php">PDMシステム←
+            </a></li>
             <li class="mb-2"><a class="mojisize_16" href="#">勤怠管理</a></li>
             <li class="mb-2"><a class="mojisize_16" href="shain_list.php">ユーザ管理</a></li>
-            <li class="mb-2"><a class="mojisize_16" href="masta.php">マスタ管理</a></li>
+            <li class="mb-2"><a class="mojisize_16" href="masta.php">マスタ管理←</a></li>
         </ul>
 
 
