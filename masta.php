@@ -48,19 +48,19 @@
                 <div class="row">
                     <div class="col">
                         <div class="mb-3">
-                            <label for="kakaku1" class="form-label">販売価格</label>
+                            <label for="kakaku1" class="form-label">販売価格[円]</label>
                             <input type="number" class="form-control" id="kakaku1" aria-describedby="emailHelp">
                             <div id="emailHelp" class="form-text">販売価格を入力してください</div>
                         </div>
 
                     </div>
                     <div class="col">
-                        <label for="kakaku2" class="form-label">原価</label>
+                        <label for="kakaku2" class="form-label">原価[円]</label>
                         <input type="number" class="form-control" id="kakaku2" aria-describedby="emailHelp">
                         <div id="emailHelp" class="form-text">原価を入力してください</div>
                     </div>
                     <div class="col">
-                        <label for="kakaku3" class="form-label">原価率</label>
+                        <label for="kakaku3" class="form-label">原価率[%]</label>
                         <input type="number" class="form-control" id="kakaku3" aria-describedby="emailHelp">
                         <div id="emailHelp" class="form-text">原価を率入力してください</div>
                     </div>
